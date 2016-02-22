@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">test_coffee</string>
+    <string name="name">Enter your mill name</string>
+</resources>
