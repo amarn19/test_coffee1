@@ -2,20 +2,24 @@ package com.example.amar.test_coffee;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
-import android.text.Editable;
+
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.support.v7.widget.Toolbar;
 
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
     int q1=0,q2=0,q3=0,q4=0;String pm;
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     public void increment(View v)
     { int id=v.getId();
@@ -67,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
         pm+="\nThank you ";
         TextView text=(TextView)findViewById(R.id.s1);
         text.setText("" + pm);
+    }
+    public void startInfoActivity(View view) {
+
+        startActivity(new Intent(this, AboutActivity.class));
     }
     public void display(int z,int p)
     {

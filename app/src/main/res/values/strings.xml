@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">test_coffee</string>
     <string name="name">Enter your mill name</string>
+    <string name="action_about">About</string>
+    <string name="website">Website</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="phone">Phone</string>
+    <string name="copyrights">The Logo in this Application belongs to Young minds and shall not be copied or used in any other context. </string>
+    <string name="dev_subtext">The App Developer.</string>
+    <string name="dev_text">Amar Narayan</string>
+    <string name="google_play">Google Play</string>
+    <string name="event_poster" >event</string>
 </resources>
+
+
